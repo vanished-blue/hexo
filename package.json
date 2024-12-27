@@ -24,6 +24,8 @@
     "hexo-theme-landscape": "^1.0.0"
   },
   "devDependencies": {
-    "hexo-deployer-git": "^4.0.0"
+    "hexo-deployer-git": "^4.0.0",
+    "hexo-generator-baidu-sitemap": "^0.1.9",
+    "hexo-generator-sitemap": "^3.0.1"
   }
 }

@@ -3,21 +3,21 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 法律至上
 subtitle: ''
 description: ''
-keywords:
-author: John Doe
-language: en
+keywords: 法律至上
+author: vanished-blue
+language: zh-CN
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://vanished-blue.github.io/hexo
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+  trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
 
 # Directory
@@ -103,4 +103,16 @@ theme: landscape
 deploy:
   type: git
   repo: https://github.com/vanished-blue/hexo.git
-  branch: main
+  branch: gh-pages
+  url: https://vanished-blue.github.io/hexo
+  permalink: :year/:month/:day/:title/
+  root: /
+
+# common sitemap for all the search engines
+sitemap:
+  path: sitemap.xml
+  tags: false
+  categories: false
+# for baidy
+baidusitemap:
+  path: baidusitemap.xml
